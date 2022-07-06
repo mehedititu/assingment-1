@@ -169,7 +169,7 @@ input[type="submit"] {
     margin-top: 60px;
 }
 
-section.subscription {
+.subscription {
     margin-top: 60px;
     text-align: center;
 }
@@ -182,14 +182,40 @@ section.subscription {
     font-size: 18px;
 }
 
-form#mail-subscription input#email {
-    width: 30%;
+#mail-subscription {
+    max-width: 810px;
+    margin: 60px auto;
+    background: #FFF4D6;
+    padding: 50px 10px;
+}
+
+#mail-subscription input#email {
+    width: 50%;
     padding: 15px;
     background-color: #D9D9D9;
     border: none;
 }
 
+#mail-subscription input[type="submit"] {
+    margin-top: 0;
+}
+
 .special {
+    margin-top: 100px;
+}
+
+.special h2.special-size {
+    text-align: center;
+    font-size: 45px;
+}
+
+.special p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.special-wrap {
     display: flex;
     width: 70%;
     margin: 60px auto;
@@ -226,6 +252,13 @@ form#mail-subscription input#email {
 
 .special-right input#bank {
     width: auto;
+}
+
+input#special-donate {
+    display: block;
+    width: 140px;
+    padding: 20px;
+    font-size: 16px;
 }
 
 .footer {
